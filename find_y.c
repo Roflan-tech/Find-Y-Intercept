@@ -29,5 +29,6 @@ void calculate(double * v_x, double * v_y, double * m_x, double * m_y, double * 
     input(&variance_x);
     printf("Enter variance of Y: ");
     input(&variance_y);
-    
+    calculate(&variance_x, &variance_y, &mean_x, &mean_y, &r);
+    return 0;
 }
